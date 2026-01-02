@@ -3,82 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hepta | Intelligent AI & Software Solutions</title>
+  <title>Hepta | AI for Healthy Purposes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- Navbar -->
+<nav>
+  <div class="container nav-container">
+    <h1 class="logo">Hepta</h1>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
 <!-- Hero Section -->
 <header id="hero">
-  <div class="container">
-    <h1>Hepta</h1>
-    <p>Intelligent AI & Software Solutions</p>
-    <a href="#portfolio" class="btn">View Projects</a>
+  <div class="hero-content">
+    <h2>AI for Healthy Purposes</h2>
+    <p>We design ethical, human-centered AI systems that enhance wellbeing, productivity, and life quality.</p>
+    <a href="#projects" class="btn">See Our Work</a>
   </div>
 </header>
 
 <!-- About Section -->
 <section id="about">
   <div class="container">
-    <h2>About Us</h2>
-    <p>Hepta is a cutting-edge software house specializing in AI, NLP, and automation solutions that empower businesses to innovate faster.</p>
+    <h2>About Hepta</h2>
+    <p>Hepta is a modern software house focused on creating AI-powered solutions that serve humanity. Our mission is to harness artificial intelligence responsibly — building tools that assist, not replace; empower, not exploit.</p>
   </div>
 </section>
 
 <!-- Services Section -->
-<section id="services">
+<section id="services" class="alt-bg">
   <div class="container">
-    <h2>Our Services</h2>
-    <div class="service-cards">
-      <div class="card">AI Chatbots</div>
-      <div class="card">NLP Applications</div>
-      <div class="card">Automation Tools</div>
-      <div class="card">Data Solutions</div>
+    <h2>Our Expertise</h2>
+    <div class="service-grid">
+      <div class="card">
+        <h3>Health AI</h3>
+        <p>Developing intelligent assistants and predictive tools for healthcare and wellbeing.</p>
+      </div>
+      <div class="card">
+        <h3>NLP & Automation</h3>
+        <p>Building smart language systems that analyze, summarize, and automate communication.</p>
+      </div>
+      <div class="card">
+        <h3>Data Intelligence</h3>
+        <p>Transforming complex data into actionable insights for better decision-making.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Portfolio Section -->
-<section id="portfolio">
+<!-- Projects Section -->
+<section id="projects">
   <div class="container">
-    <h2>Portfolio</h2>
-    <div class="projects">
-      <div class="project">
-        <img src="assets/images/project1.jpg" alt="Project 1">
-        <h3>AI Chatbot Platform</h3>
-        <p>Intelligent conversational AI deployed for customer support automation.</p>
+    <h2>Case Studies</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1581093588401-22da98a64a4d?auto=format&fit=crop&w=800&q=80" alt="AI Health Assistant">
+        <h3>AI Health Assistant</h3>
+        <p>A conversational AI built to guide patients through symptom checks and wellness tracking.</p>
       </div>
-      <div class="project">
-        <img src="assets/images/project2.jpg" alt="Project 2">
-        <h3>NLP Text Analyzer</h3>
-        <p>Advanced text analysis tool for sentiment and intent detection.</p>
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1618354691373-8ec4a7a0ec25?auto=format&fit=crop&w=800&q=80" alt="NLP Dashboard">
+        <h3>NLP Wellness Insights</h3>
+        <p>An NLP-driven platform analyzing public sentiment around healthcare and nutrition trends.</p>
       </div>
-      <div class="project">
-        <img src="assets/images/project3.jpg" alt="Project 3">
-        <h3>Automation Dashboard</h3>
-        <p>Workflow automation system to streamline repetitive tasks.</p>
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Automation Suite">
+        <h3>Hepta Automation Suite</h3>
+        <p>Automating daily workflows to reduce manual stress and promote healthier work habits.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Contact Section -->
-<section id="contact">
+<section id="contact" class="alt-bg">
   <div class="container">
-    <h2>Contact Us</h2>
-    <p>Email us at <a href="mailto:info@hepta.com">info@hepta.com</a> or use the form below:</p>
+    <h2>Collaborate with Us</h2>
+    <p>Let’s build responsible AI solutions together. Reach out today.</p>
     <form action="https://formspree.io/f/yourformid" method="POST">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email" required>
       <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
+      <button type="submit" class="btn">Send Message</button>
     </form>
   </div>
 </section>
 
 <!-- Footer -->
 <footer>
-  <p>© 2025 Hepta. All rights reserved.</p>
+  <p>© 2026 Hepta. Building AI for Healthy Purposes.</p>
 </footer>
 
 <script src="script.js"></script>
