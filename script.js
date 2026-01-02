@@ -1,10 +1,5 @@
-// Smooth scroll
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
-});
+// Hepta AI
+console.log("Hepta Portfolio Loaded");
 
+// Future interactivity can go here
+// (Smooth scroll is handled by CSS)
