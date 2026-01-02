@@ -1,157 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hepta | Next-Gen AI Solutions</title>
-    <!-- Fonts: Outfit (Headings) and Inter (Body) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <!-- Ionicons for Icons -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</head>
-<body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hepta | Next-Gen AI Solutions</title>
+  <!-- Fonts: Outfit (Headings) and Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=2">
+  <!-- ... -->
+  <!-- About Section -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="about-text fade-in-up">
 
-    <!-- Navbar -->
-    <nav id="navbar">
-        <div class="container nav-container">
-            <h1 class="logo">Hepta<span style="color:var(--primary-accent)">.</span></h1>
-            <ul class="nav-links">
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+          <h2>Who We Are</h2>
+          <br>
+          <p style="color: var(--text-secondary); margin-bottom: 20px;">
+            Hepta is a collective of engineers, data scientists, and designers passionate about the frontier of
+            Artificial Intelligence.
+          </p>
+          <p style="color: var(--text-secondary);">
+            We don't just build software; we build intelligence. Our mission is to democratize access to high-end AI
+            tools, ensuring that businesses of all sizes can leverage the power of machine learning to solve real-world
+            problems.
+          </p>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header id="hero">
-        <div class="container hero-content fade-in-up">
-            <h1 class="hero-title">
-                Building the <br> 
-                <span class="text-gradient">Intelligent Future</span>
-            </h1>
-            <p class="hero-subtitle">
-                We craft advanced AI solutions that empower businesses. From predictive forecasting to intelligent scam detection, we turn complexity into clarity.
-            </p>
-            <a href="#services" class="btn">Explore Solutions</a>
+        <div class="about-visual fade-in-up" style="display: flex; justify-content: center;">
+          <!-- Simple abstract visual using CSS -->
+          <div
+            style="width: 300px; height: 300px; background: linear-gradient(45deg, var(--secondary-accent), var(--primary-accent)); border-radius: 20px; opacity: 0.8; filter: blur(40px);">
+          </div>
         </div>
-    </header>
+      </div>
+    </div>
+  </section>
 
-    <!-- Services Section -->
-    <section id="services" class="section-padding">
-        <div class="container">
-            <div class="section-header fade-in-up">
-                <h2>Our Capabilities</h2>
-                <p>Cutting-edge technologies tailored for your growth.</p>
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info fade-in-up">
+          <span style="color: var(--primary-accent); font-weight: 600; letter-spacing: 1px;">GET IN TOUCH</span>
+          <h3>Ready to transform your business?</h3>
+          <p style="color: var(--text-secondary); margin-bottom: 30px;">
+            Whether you need a custom LLM solution or a new dashboard, our team is ready to help to define your AI
+            strategy.
+          </p>
+          <div style="margin-top: 20px;">
+            <p><strong>Email:</strong> projects@hepta.ai</p>
+          </div>
+        </div>
+
+        <div class="contact-form fade-in-up">
+          <form action="#">
+            <div class="form-group">
+              <input type="text" placeholder="Name" required>
             </div>
-
-            <div class="service-grid">
-                <!-- Service 1 -->
-                <div class="glass-card fade-in-up">
-                    <div class="service-icon"><ion-icon name="trending-up-outline"></ion-icon></div>
-                    <h3>Forecasting</h3>
-                    <p>Predictive models that analyze historical data to foresee trends, helping you make proactive business decisions.</p>
-                </div>
-                
-                <!-- Service 2 -->
-                <div class="glass-card fade-in-up">
-                    <div class="service-icon"><ion-icon name="chatbubbles-outline"></ion-icon></div>
-                    <h3>AI Chatbots</h3>
-                    <p>Sophisticated conversational agents that handle customer support, booking, and inquiries 24/7 with human-like nuance.</p>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="glass-card fade-in-up">
-                    <div class="service-icon"><ion-icon name="hardware-chip-outline"></ion-icon></div>
-                    <h3>LLM Services</h3>
-                    <p>Custom Large Language Model integration for semantic search, text generation, and complex reasoning tasks.</p>
-                </div>
-
-                <!-- Service 4 -->
-                <div class="glass-card fade-in-up">
-                    <div class="service-icon"><ion-icon name="stats-chart-outline"></ion-icon></div>
-                    <h3>AI Dashboards</h3>
-                    <p>Real-time visualization of your AI metrics. Monitor performance, usage, and insights in a beautiful, intuitive interface.</p>
-                </div>
-
-                <!-- Service 5 -->
-                <div class="glass-card fade-in-up">
-                    <div class="service-icon"><ion-icon name="shield-checkmark-outline"></ion-icon></div>
-                    <h3>Scam Detectors</h3>
-                    <p>Intelligent security systems that detect anomalies and fraud patterns instantly to protect your ecosystem.</p>
-                </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email Address" required>
             </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section-padding" style="background: rgba(255,255,255,0.02);">
-        <div class="container">
-            <div class="contact-wrapper">
-                <div class="about-text fade-in-up">
-                    <h2>Who We Are</h2>
-                    <br>
-                    <p style="color: var(--text-secondary); margin-bottom: 20px;">
-                        Hepta is a collective of engineers, data scientists, and designers passionate about the frontier of Artificial Intelligence.
-                    </p>
-                    <p style="color: var(--text-secondary);">
-                        We don't just build software; we build intelligence. Our mission is to democratize access to high-end AI tools, ensuring that businesses of all sizes can leverage the power of machine learning to solve real-world problems.
-                    </p>
-                </div>
-                <div class="about-visual fade-in-up" style="display: flex; justify-content: center;">
-                    <!-- Simple abstract visual using CSS -->
-                    <div style="width: 300px; height: 300px; background: linear-gradient(45deg, var(--secondary-accent), var(--primary-accent)); border-radius: 20px; opacity: 0.8; filter: blur(40px);"></div>
-                </div>
+            <div class="form-group">
+              <textarea placeholder="Tell us about your project"></textarea>
             </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section-padding">
-        <div class="container">
-            <div class="contact-wrapper">
-                <div class="contact-info fade-in-up">
-                    <span style="color: var(--primary-accent); font-weight: 600; letter-spacing: 1px;">GET IN TOUCH</span>
-                    <h3>Ready to transform your business?</h3>
-                    <p style="color: var(--text-secondary); margin-bottom: 30px;">
-                        Whether you need a custom LLM solution or a new dashboard, our team is ready to help to define your AI strategy.
-                    </p>
-                    <div style="margin-top: 20px;">
-                        <p><strong>Email:</strong> projects@hepta.ai</p>
-                    </div>
-                </div>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Hepta AI. All rights reserved.</p>
+    </div>
+  </footer>
 
-                <div class="contact-form fade-in-up">
-                    <form action="#">
-                        <div class="form-group">
-                            <input type="text" placeholder="Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Email Address" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Tell us about your project"></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+  <script src="script.js"></script>
+  </body>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Hepta AI. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
 </html>
-
